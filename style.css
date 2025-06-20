@@ -1,0 +1,176 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Background */
+body {
+  background-image: url("Hero-section.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Dark overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.language {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.option {
+  background-color: white;
+  color: black;
+}
+
+.sign-in {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: darkred;
+}
+
+/* Hero Section */
+.hero {
+  box-shadow: 15px 15px 15px 15px transparent;
+  text-align: center;
+  margin-top: 10%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Email Form */
+.email-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.email-form input {
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  height: 60px;
+  width: 400px;
+  border: 0.1px solid white;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+
+.email-form button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: darkred;
+}
+
+/* Footer Section */
+footer {
+  background-color: black;
+  color: #757575;
+  padding: 2rem 5rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-container p {
+  margin-bottom: 1.5rem;
+}
+
+.footer-container a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-container select.language {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.netflix-india {
+  margin-top: 1rem;
+}
